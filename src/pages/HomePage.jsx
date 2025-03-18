@@ -2,7 +2,7 @@ import React from 'react'
 import HeroSection from '../components/HeroSection';
 import LegalQASection from './LegalQASection';
 import FindAttorneySection from './FindAttorneySection';
-import Consumers from './Consumers';
+import Consumers from '../pages/Consumers';
 import ChatWithAttorney from '../components/ChatWithAttorney';
 import FindLawyer from '../components/FindLawyer';
 import StatsSection from '../components/StatsSection';
