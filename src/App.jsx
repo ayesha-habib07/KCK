@@ -18,7 +18,6 @@ const router = createBrowserRouter(
       <Route path="/services" element={<LegalQASection />} />
       <Route path="/attorney" element={<AttorneySearch />} /> 
       <Route path="/contact" element={<ContactSection />} /> 
-
     </Route>
   )
 );
