@@ -1,7 +1,7 @@
 import React from "react";
 import { FaStar, FaComments, FaUserAlt } from "react-icons/fa";
 import { GoHorizontalRule } from "react-icons/go";
-import Legal from "../components/Legal";
+import Legal from "../components/LegalServices";
 
 const Consumers = () => {
   return (
