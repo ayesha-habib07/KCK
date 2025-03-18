@@ -2,6 +2,7 @@ import React from "react";
 import { FaStar, FaComments, FaUserAlt } from "react-icons/fa";
 import { GoHorizontalRule } from "react-icons/go";
 import Legal from "../components/LegalServices";
+import LegalServices from "../components/LegalServices";
 
 const Consumers = () => {
   return (
@@ -53,7 +54,7 @@ const Consumers = () => {
       </div>
 
       {/* Main Image with Review Cards */}
-      <Legal />
+      <LegalServices />
 
       {/* Bottom Feature Cards */}
       <div className="py-16 px-6">
