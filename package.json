@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/noto-serif": "^5.2.6",
+    "@fontsource/plus-jakarta-sans": "^5.2.5",
     "@tailwindcss/vite": "^4.0.14",
     "lucide-react": "^0.482.0",
     "react": "^19.0.0",

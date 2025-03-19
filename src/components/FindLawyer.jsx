@@ -3,7 +3,7 @@ import { FaSearch } from "react-icons/fa";
 
 const FindLawyer = () => {
   return (
-    <section className="bg-blue-600 w-full py-16 text-white text-center px-4">
+    <section className="bg-[#008cc9] w-full py-16 text-white text-center px-4 font-Jakarta">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold">Need Legal Assistance?</h2>
         <p className="mt-3 text-lg">

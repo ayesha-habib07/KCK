@@ -3,9 +3,9 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const ContactSection = () => {
   return (
-    <section className="bg-gray-100 w-full py-16 text-gray-900 px-6">
+    <section id="contact" className="bg-gray-100 w-full py-16 text-gray-900 px-6 font-Jakarta">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-700">Contact Us</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-[#0077c8]">Contact Us</h2>
         <p className="mt-3 text-lg text-gray-700">
           Get in touch with <span className="font-semibold">Kobba & Co. Kekeh Chambers</span> for expert legal assistance.
         </p>
@@ -42,7 +42,7 @@ const ContactSection = () => {
 
         {/* Contact Form */}
         <div className="mt-12 bg-white p-8 rounded-lg shadow-md text-left max-w-2xl mx-auto">
-          <h3 className="text-2xl font-semibold text-blue-700 mb-4 text-center">Send a Message</h3>
+          <h3 className="text-2xl font-semibold text-[#0077c8] mb-4 text-center">Send a Message</h3>
           <form>
             <div className="mb-4">
               <label className="block text-gray-700 font-medium">Your Name</label>
@@ -73,7 +73,7 @@ const ContactSection = () => {
 
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition"
+              className="w-full bg-[#0077c8] text-white py-3 rounded-lg hover:bg-blue-700 transition"
             >
               Send Message
             </button>

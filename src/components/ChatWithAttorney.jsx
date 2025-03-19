@@ -4,7 +4,7 @@ import chat from "../assets/chat.jpg";
 
 const ChatWithAttorney = () => {
   return (
-    <section className="bg-[#f2f8fd] w-full">
+    <section className="bg-[#f2f8fd] w-full font-Jakarta">
       <div className="flex flex-col lg:flex-row items-center justify-between gap-12 p-6 lg:p-12 max-w-7xl mx-auto">
         
         {/* Left Side - Image with Floating Background */}
@@ -33,7 +33,7 @@ const ChatWithAttorney = () => {
           {/* Added separator line */}
           <div className="border-b border-gray-300 my-6"></div>
 
-          <button className="mt-8 bg-blue-600 text-white py-3 px-8 rounded-lg hover:bg-blue-700 transition flex items-center gap-3">
+          <button className="mt-8 bg-[#0077c8] text-white py-3 px-8 rounded-lg hover:bg-blue-700 transition flex items-center gap-3">
             <FaCircle className="text-lg" />
             Chat With an Attorney
           </button>

@@ -2,7 +2,7 @@ import React from "react";
 
 const StatsSection = () => {
   return (
-    <section className="bg-blue-600 text-white py-16 md:py-20 px-4">
+    <section className="bg-[#008cc9] text-white py-16 md:py-20 px-4 font-Jakarta">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between text-center space-y-8 md:space-y-0 md:space-x-8">
         
         {/* Item 1 */}

@@ -5,7 +5,7 @@ import './App.css';
 
 import MainLayout from './layout/MainLayout';
 import HomePage from './pages/HomePage';
-import Consumers from './pages/Consumers';
+import Consumers from './pages/consumers';
 import LegalQASection from './pages/LegalQASection';
 import AttorneySearch from './pages/FindAttorneySection';
 import ContactSection from './pages/ContactSection';

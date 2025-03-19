@@ -11,7 +11,7 @@ const AttorneySearch = () => {
     ];
 
     return (
-        <section className="flex flex-col lg:flex-row items-start justify-between gap-16 p-8 lg:p-16 max-w-7xl mx-auto">
+        <section id="attorney" className="flex flex-col lg:flex-row items-start justify-between gap-16 p-8 lg:p-16 max-w-7xl mx-auto font-Jakarta">
             
             {/* Left Side - Search Explanation */}
             <div className="w-full lg:w-1/2 space-y-8">
@@ -41,7 +41,7 @@ const AttorneySearch = () => {
                     </div>
                 </div>
 
-                <button className="mt-6 bg-blue-600 text-white py-3 px-8 rounded-lg hover:bg-blue-700 transition">
+                <button className="mt-6 bg-[#0077c8] text-white py-3 px-8 rounded-lg hover:bg-blue-700 transition">
                     Find a Lawyer
                 </button>
             </div>
@@ -60,7 +60,7 @@ const AttorneySearch = () => {
                 <div className="space-y-6">
                     {attorneys.map((attorney, index) => (
                         <div key={index} className="flex items-center bg-white shadow-md rounded-lg p-6 gap-6">
-                            <img src={attorney.image} alt={attorney.name} className="w-24 h-24 object-cover rounded-full" />
+                            <img src={attorney.image} alt={attorney.name} className="w-24 h-24 object-cover object-[top_right] rounded-full" />
                             <div className="space-y-1">
                                 <h3 className="text-lg font-bold">{attorney.name}</h3>
                                 <p className="text-sm text-gray-600">{attorney.reviews} reviews • Rating: {attorney.rating}</p>

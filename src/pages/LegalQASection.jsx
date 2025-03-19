@@ -1,20 +1,22 @@
 import { FaUserCircle } from "react-icons/fa";
-import img2 from '../assets/img2.jpeg'
+import img1 from '../assets/img3.jpeg'
 
 const LegalQASection = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between gap-12 p-6 lg:p-12 max-w-7xl mx-auto">
+    <div  id="services" className="flex flex-col lg:flex-row items-center justify-between gap-12 p-6 lg:p-12 max-w-7xl mx-auto font-Jakarta">
       
       {/* Left Side - Image with Floating Cards */}
       <div className="relative w-full max-w-lg lg:max-w-xl">
-        <img
-          src={img2}
-          alt="Man asking legal question"
-          className="w-full h-[500px] object-cover rounded-2xl"
-        />
+      <img
+  src={img1}
+  alt="Man asking legal question"
+  className="w-full h-[600px] object-cover object-[top_right] rounded-2xl"
+/>
+
+
         
         {/* Floating Question Bubble */}
-        <div className="absolute top-4 left-1/4 transform -translate-x-1/2 bg-white shadow-lg rounded-lg p-3 w-64">
+        <div className="absolute top-1 left-1/4 transform -translate-x-1/2 bg-white shadow-lg rounded-lg p-3 w-64  m-4 sm:m-6 lg:m-8">
           <p className="text-xs font-semibold bg-gray-200 px-2 py-1 rounded-md inline-block">
           Legal Inquiry
           </p>
@@ -24,7 +26,7 @@ const LegalQASection = () => {
         </div>
 
         {/* Floating Answer 1 */}
-        <div className="absolute bottom-10 left-0 bg-white shadow-lg rounded-lg p-3 w-56 flex items-center gap-2">
+        <div className="absolute bottom-10 left-0 bg-white shadow-lg rounded-lg p-3 w-56 flex items-center gap-2 m-4 sm:m-6 lg:m-8">
           <FaUserCircle className="text-blue-500 text-2xl" />
           <div>
             <p className="text-xs font-semibold">John Smit</p>
@@ -36,7 +38,7 @@ const LegalQASection = () => {
         </div>
 
         {/* Floating Answer 2 */}
-        <div className="absolute bottom-24 right-0 bg-white shadow-lg rounded-lg p-3 w-52 flex items-center gap-2">
+        <div className="absolute bottom-24 right-0 bg-white shadow-lg rounded-lg p-3 w-52 flex items-center gap-2 m-4 sm:m-6 lg:m-8">
           <FaUserCircle className="text-red-500 text-2xl" />
           <div>
             <p className="text-xs font-semibold">Emma Brown</p>
@@ -79,7 +81,7 @@ const LegalQASection = () => {
         {/* Added a line after the paragraph */}
         <div className="border-b border-gray-300 my-6"></div>
 
-        <button className="mt-8 bg-blue-600 text-white py-3 px-8 rounded-lg hover:bg-blue-700 transition">
+        <button className="mt-8 bg-[#0077c8] text-white py-3 px-8 rounded-lg hover:bg-blue-700 transition">
         Get Legal Advice
         </button>
       </div>
